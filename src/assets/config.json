@@ -1,0 +1,52 @@
+{
+    "nodeshape": {
+      "attributeName": "",
+      "shapedictionary": {},
+      "defaultshape": "hexagon"
+    },
+    "nodecolour": {
+      "attributeName": "Entropy",
+      "attributetype": "gradient",
+      "colourdictionary": {
+        "colour1": "#007fe6",
+        "colour2": "#9be5fa",
+        "colour3": "#dee600",
+        "colour4": "#f5f4c1",
+        "colour5": "#cc9180",
+        "colour6": "#e50900"
+      },
+      "attributerange": [
+        0,
+        1
+      ],
+      "defaultcolour": "#ffffff"
+    },
+    "nodesize": {
+      "attributeName": "Score",
+      "attributerange": [
+        0,
+        1
+      ],
+      "sizeRange": [
+        15,
+        55
+      ],
+      "defaultSize": 25
+    },
+    "edgecolour": {
+      "attributeName": "Score",
+      "attributetype": "gradient",
+      "colourdictionary": {
+        "colour1": "#00ff00",
+        "colour2": "#ff8243",
+        "colour3": "#ff0000"
+      },
+      "attributerange": [
+        0,
+        1
+      ],
+      "defaultcolour": "#000000"
+    },
+    "timeline": "Discrete",
+    "window": "int"
+  }
